@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+.App {
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  text-align: center;
+  width: 99vw;
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.heading h1{
+  font-family: 'Great Vibes' , cursive;
+  font-size: 5rem;
+  font-weight: lighter;
+  color: #e6891d;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+}
+
+.search-form{
+  min-height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+.serach-bar{
+  width: 50%;
+  padding: 10px;
+  border: none;
+  margin: 2%;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+input[type='submit']{
+  border: none;
+  height: 50px;
+  width: 10%;
+  margin-top: 2%;
+  border-radius: 10px;
+  background: #a18cd1;
+  cursor: pointer;
+  box-shadow: 0 0  3px 3px rgba(255,255,255,0.7) ;
+  transition: 1s;
+}
+
+input[type='submit']:hover{
+  box-shadow: none;
+  transition: 1s;
+}
+
+.recipies{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
