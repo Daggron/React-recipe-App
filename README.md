@@ -18,4 +18,4 @@ for developers
 for non-developers
 
 click here
-<a href="">Here</a>
+<a href="https://recipies.daggron.now.sh/">Here</a>
