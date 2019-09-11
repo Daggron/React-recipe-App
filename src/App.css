@@ -62,3 +62,39 @@ input[type='submit']:hover{
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+
+@media (max-width: 700px){
+  .search-form{
+    min-height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+  }
+  
+  .serach-bar{
+    width: 90vw;
+    padding: 10px;
+    border: none;
+    margin: 2%;
+    font-size: 1.5rem;
+    color: #888;
+  }
+  input[type='submit']{
+    border: none;
+    height: 50px;
+    width: 80%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background: #a18cd1;
+    cursor: pointer;
+    box-shadow: 0 0  3px 3px rgba(255,255,255,0.7) ;
+    transition: 1s;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+  }
+
+}

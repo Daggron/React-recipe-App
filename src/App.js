@@ -18,6 +18,7 @@ const App = ()=>{
     useEffect(()=>{
        getrecipies();
         
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[query]);
 
     const getrecipies = async ()=>{

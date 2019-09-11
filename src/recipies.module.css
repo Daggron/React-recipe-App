@@ -9,3 +9,13 @@
    align-items: center;
    width: 30%;
 }
+
+
+@media(max-width:700px){
+   .recepie{
+      width: 80%;
+      text-align: center;
+   }
+
+
+}
